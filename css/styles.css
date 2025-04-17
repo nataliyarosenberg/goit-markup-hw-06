@@ -711,15 +711,13 @@ span .accent {
 @media screen and (min-width: 768px) {
   .section-our-team {
     min-width: 768px;
-    padding-right: 108px;
-    padding-left: 108px;
   }
   .section-our-team .container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* padding: 96px 108px; */
+    padding: 0 108px;
   }
 
   .our-team-title {
@@ -1083,7 +1081,7 @@ span .accent {
     column-gap: 24px;
     row-gap: 72px;
     align-items: baseline;
-    padding: 0 16px;
+    padding: 0 108px;
   }
   .footer-container {
     width: 264px;
